@@ -1,0 +1,35 @@
+#container {
+    background-color:white;
+    font-family: 'Verdana';
+    width: 1200px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    width: 1000px;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    font-size: 24px;
+    color: black;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color:burlywood;
+}
+
+h1, h2, h3, footer {
+    text-align: center;
+}
