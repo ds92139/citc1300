@@ -1,0 +1,151 @@
+/* Global Styles */
+
+body {
+    background-color: #A65221;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+#container {
+    border: 10px double rgb(144, 206, 171);
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav li a {
+    border-radius: 5px;
+    border-style: groove;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: azure;
+    text-shadow: 1px 1px 1px #9D2B20;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p, ul {
+    font-size: 20px;
+    color: rgb(237, 244, 240);
+}
+
+.col {
+    overflow: auto;
+}
+
+#container {
+    background-color: #6B7332;
+}
+
+/* Mobile Styles */
+
+@media (min-width: 320px) {
+    nav {
+        background-color: #BFBA75;
+        padding: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav li a {
+        display: block;
+        height: 50px;
+        line-height: 40px;
+        background-color: #9D2B20;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        margin-top: 5px;
+    }
+
+    nav li a:hover {
+        color: orange;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+
+    .site-photo {
+        width: 75%;
+    }
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 125px;
+        height: 50px;
+        line-height: 50px;
+        margin: 5px;
+    }
+
+    .site-photo {
+        width: 75%;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px black;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 10px double rgb(144, 206, 171);
+        border-radius: 5px;
+    }
+
+    nav {
+        padding: 2px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #multi_col {
+        display: flex;
+    }
+
+    .col {
+        width: 50%;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid rgb(171, 187, 178);
+    }
+
+    .site-photo {
+        width: 100%;
+    }
+}
