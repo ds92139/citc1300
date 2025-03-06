@@ -123,6 +123,7 @@ p, ul {
         justify-content: center;
         align-items: center;
         margin-top: 20px; /* Adjust as needed */
+        border: 0px;
     }
     
     .iframe-container iframe {
